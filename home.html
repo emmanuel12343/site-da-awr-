@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login awr</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .login-form {
+            background-color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            max-width: 300px;
+            width: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .login-form:hover {
+            transform: translateY(-5px);
+        }
+
+        .login-form h2 {
+            margin-bottom: 20px;
+            color: white; /* Título em branco para destaque */
+        }
+
+        .input-container {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .input-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: white; /* Texto das labels em branco */
+            transition: color 0.3s ease;
+        }
+
+        .input-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid white; /* Bordas brancas */
+            background-color: black; /* Fundo preto */
+            color: white; /* Texto branco */
+            border-radius: 4px;
+            transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .input-container input:focus {
+            border-color: #ccc;
+            color: black;
+            background-color: white;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form" action="file:///C:/Users/Lenovo/Desktop/coisas%20de%20programador/easy%20portfolio.html/index.html#">
+            <h2>Login</h2>
+            <div class="input-container">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>

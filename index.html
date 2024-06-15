@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Botões</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .button-grid {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .button {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .button-instagram {
+            background-color: #1d1c1c; /* Cor do Instagram */
+            color: white;
+        }
+
+        .button-whatsapp {
+            background-color: #1f1d1d; /* Cor do WhatsApp */
+            color: white;
+        }
+
+    
+
+        .button-orcamentos {
+            background-color: #272424; /* Cor para Orçamentos */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button-grid">
+            <a href="https://www.instagram.com/awr__som_luzes/?igsh=MXJ2ZHF1bjBhcHc2bA%3D%3D&utm_source=qr" class="button button-instagram">Instagram</a>
+            <a href="https://api.whatsapp.com/send/?phone=41988221838&text&type=phone_number&app_absent=0" class="button button-whatsapp">WhatsApp</a>
+            <a href="#" class="button button-orcamentos">Orçamentos</a>
+
+        </div>
+    </div>
+</body>
+</html>
